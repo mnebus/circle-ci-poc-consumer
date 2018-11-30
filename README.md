@@ -1,9 +1,14 @@
-# circle-ci-poc
+# circle-ci-poc-consumer
 
 ## Purpose
-This project is an example of a project with a CI and release process managed by [circleci](https://circleci.com/pricing/#build-linux)
+This project is an test app that consumes the library created the the circle-ci-poc project.
 
-## Lifecycle
-1. Any update to any branch triggers a build & test workflow on that branch. 
-2. Git branch protection is enabled on master will not allow merges that haven't passed the build. 
-3. A new Git release/tag that starts with 'v' (eg, 'v0.0.1-alpha') will trigger a release to an externally hosted artifactory instance. 
+## HOWTO
+Edit the below snippet in the pom.xml file to consume whatever version you create
+```xml
+    <dependency>
+			<groupId>com.example</groupId>
+			<artifactId>demo</artifactId>
+			<version>v0.0.6-alpha</version>
+		</dependency>
+```
