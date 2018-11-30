@@ -12,3 +12,5 @@ Edit the below snippet in the pom.xml file to consume whatever version you creat
   <version>v0.0.6-alpha</version>
 </dependency>
 ```
+
+Run: `./mvnw clean install` to verify the build.
