@@ -1,4 +1,5 @@
 # circle-ci-poc-consumer
+[![DepShield Badge](https://depshield.sonatype.org/badges/mnebus/circle-ci-poc-consumer/depshield.svg)](https://depshield.github.io)
 
 ## Purpose
 This project is an test app that consumes the library created the the circle-ci-poc project.
